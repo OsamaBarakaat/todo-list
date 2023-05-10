@@ -1,0 +1,86 @@
+.todo-list {
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    background: #f2f2f2;
+    background: linear-gradient(to bottom right, #f2f2f2, #e6e6e6);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px #ccc;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    background-color: #f2f2f2;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #8bc34a;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+button:hover {
+    background-color: #4caf50;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+li span {
+    flex: 1;
+    font-size: 16px;
+}
+
+li button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #f44336;
+    color: #260303;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+li button:hover {
+    background-color: #e53935;
+}
